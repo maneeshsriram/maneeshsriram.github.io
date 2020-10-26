@@ -1,0 +1,127 @@
+:root{
+    --bg-size:cover;
+    --main-color:#fff;
+    --btn-font-color:#000;
+    --btn-color:#bbef1a;
+    --btn-font:1.5rem;
+    --eff: .5s all ease;
+}
+
+/* *{
+    font-family: ;
+} */
+
+html{
+    font-size: 62.5%;
+}
+
+p,label,input::placeholder{
+    font-size: 1.9rem;
+    line-height: 170%;
+    color: #6c757d;
+}
+
+.fab, .fas{
+    transition: var(--eff);
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+a, a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body{
+    background-color: hsl(84%,3%,94%);
+}
+
+
+.main_header h1{
+    font-weight: 100;
+    font-size: 5rem;
+}
+
+.main_header p{
+    font-size: 2.2rem;
+}
+
+.main_header__div{
+    height: 400px;
+    background-image:linear-gradient(to right, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.1)) ,url('./images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg');
+    background-size: var(--bg-size);
+    margin: 1% 0 5%;
+}
+
+.main_header__div p{
+    font-size: 3.5rem;
+    color: var(--main-color);
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.main_header__div h2{
+    font-size: 6.5rem;
+    color: var(--main-color);
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.btn{
+    font-size: 1.6rem;
+}
+
+.btn:hover{
+    transform: translateY(-0.5rem);
+    transition: var(--eff);
+}
+
+.post_buttons{
+    margin: 3rem 0;
+}
+
+.replies{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+
+/* About me */
+.about_me__img{
+    object-fit: contain;
+    height: 200px;
+}
+
+.card-header, .card-body{
+    color: #fff;
+    background-color: #000;
+}
+
+.empty{
+    height: 200px;
+}
+
+.advertise{
+    background-color: rgb(207, 206, 204);
+    color: #000;
+}
+
+.advertise-body{
+    height: 200px;
+    background-color: #d9dad6;
+}
+
+.card-title{
+    color: rgb(0, 183, 255);
+    opacity: 0.6;
+}
+
+.card-text{
+    color: #6b6b6b;
+    opacity: 0.6;
+}

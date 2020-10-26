@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"
+        integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" />
+
+    <!-- Google fonts -->
+
+
+    <title>Blog</title>
+</head>
+
+<body>
+
+    <!-- ********* Header ******** -->
+    <header class="main_header">
+        <div class="d-flex justify-content-center align-items-center flex-column py-5">
+            <h1>CREATIVE DESIGNERS</h1>
+            <p>Welcome to the <span class="text-uppercase bg-dark py-2 px-3 text-white">World of Blog</span></p>
+        </div>
+
+        <div class="main_header__div d-flex align-items-start justify-content-center pl-5 flex-column shadow">
+            <p>Robert Jhones</p>
+            <h2>
+                <span>He is a Programmer</span>
+            </h2>
+            <div class="header_btn">
+                <button class="btn btn-lg btn-outline-warning btn_sub mr-3">SUBSCRIBE</button>
+                <button class="btn btn-lg btn-outline-light btn_sub">REACH OUT</button>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <!-- *********** Body ************ -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-10 col-md-11 mx-auto my-5">
+                <div class="row gx-5 mx-sm-auto">
+
+                    <!-- Left Part Content -->
+                    <div class="col-lg-8 col-md-11 mx-auto">
+                        <div class="row gy-5">
+
+
+
+
+
+
+
+
+                            <!-- First Post -->
+                            <div class="col-12 card p-4 shadow post_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1 class="font-weight-bold">BEST LAPTOP 2020</h1>
+                                    <p class="blog-title">
+                                        <span class="font-weight-bold">Title Description </span>Jul 12,2020
+                                    </p>
+                                </div>
+                                <figure>
+                                    <img src="/images//nikolay-tarashchenko-u76CN5rZeOU-unsplash.jpg"
+                                        class="shadow img-fluid">
+                                </figure>
+                                <p>
+                                    <span class="font-weight-bold">Chris Stoinnis</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nostrum
+                                    reprehenderit
+                                    suscipit iure dolorem quo animolores suscipit repudiandae ipsa eos nesciunt sapiente
+                                    necessitatibus doloribus magnam aspernatur voluptates? Veritatis quos cumque, enim
+                                    repellat minima blanditiis placeat tempora explicabo.
+                                </p>
+                                <p>
+                                    ipsa eos nesciunt sapiente
+                                    necessitatibus doloribus magnam aspernatur voluptates? Veritatis quos cumque, enim
+                                    repellat minima blanditiis placeat tempora explicabo.
+                                </p>
+                                <div class="d-flex justify-content-between post_buttons">
+                                    <button class="btn btn-lg btn-outline-primary btn_sub btn_like" onclick="like('1')">
+                                        <i class="fas fa-thumbs-up"></i> Like
+                                    </button>
+                                    <button class="btn btn-lg btn-outline-dark btn_sub" onclick="reply('reply2')">
+                                        Replies <badge class="bg-white text-dark p-2">3</badge>
+                                    </button>
+                                </div>
+
+                                <div class="replies" id="reply2">
+                                    <div class="d-flex justify-content-start flex-row align-items-center 
+                                card reply_card py-3">
+                                        <div class="reply_img mx-2 align-items-center">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                alt="">
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title">
+                                                <span class="font-weight-bold">Raj </span><span> Aug 16, 2020</span>
+                                            </p>
+                                            <p>Nice explaination</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-start flex-row align-items-center 
+                                card reply_card py-3">
+                                        <div class="reply_img mx-2 align-items-center">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                alt="">
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title">
+                                                <span class="font-weight-bold">Gayle </span><span> Aug 18, 2020</span>
+                                            </p>
+                                            <p>Awesome content</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-start flex-row align-items-center 
+                                card reply_card py-3">
+                                        <div class="reply_img mx-2 align-items-center">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                alt="">
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title">
+                                                <span class="font-weight-bold">Smith </span><span> Oct 22, 2020</span>
+                                            </p>
+                                            <p>Much needed article</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <!-- Second post -->
+                            <div class="col-12 card p-4 shadow post_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1 class="font-weight-bold">a Cricketor's Life</h1>
+                                    <p class="blog-title">
+                                        <span class="font-weight-bold">Title Description </span>Aug 12,2020
+                                    </p>
+                                </div>
+                                <figure>
+                                    <img src="/images/michael-weir-UBDBTX27_KE-unsplash.jpg" class="shadow img-fluid">
+                                </figure>
+                                <p>
+                                    <span class="font-weight-bold">Adam Warner</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nostrum
+                                    reprehenderit
+                                    suscipit iure dolorem quo animolores suscipit repudiandae ipsa eos nesciunt sapiente
+                                    necessitatibus doloribus magnam aspernatur voluptates? Veritatis quos cumque, enim
+                                    repellat minima blanditiis placeat tempora explicabo.
+                                </p>
+                                <p>
+                                    ipsa eos nesciunt sapiente
+                                    necessitatibus doloribus magnam aspernatur voluptates? Veritatis quos cumque, enim
+                                    repellat minima blanditiis placeat tempora explicabo.
+                                </p>
+                                <div class="d-flex justify-content-between post_buttons">
+                                    <button class="btn btn-lg btn-outline-primary btn_sub btn_like" onclick="like('2')">
+                                        <i class="fas fa-thumbs-up"></i> Like
+                                    </button>
+                                    <button class="btn btn-lg btn-outline-dark btn_sub">
+                                        Replies <badge class="bg-white text-dark p-2">0</badge>
+                                    </button>
+                                </div>
+
+                            </div>
+
+                            <!-- Third Post -->
+                            <div class="col-12 card p-4 shadow post_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5">
+                                    <h1 class="font-weight-bold">Need of Masks</h1>
+                                    <p class="blog-title">
+                                        <span class="font-weight-bold">Title Description </span>Aug 12,2020
+                                    </p>
+                                </div>
+                                <figure>
+                                    <img src="/images/anshu-a-yAXbfq1wI7I-unsplash.jpg" class="shadow img-fluid">
+                                </figure>
+                                <p>
+                                    <span class="font-weight-bold">Dean Morris</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nostrum
+                                    reprehenderit
+                                    suscipit iure dolorem quo animolores suscipit repudiandae ipsa eos nesciunt sapiente
+                                    necessitatibus doloribus magnam aspernatur voluptates? Veritatis quos cumque, enim
+                                    repellat minima blanditiis placeat tempora explicabo.
+                                </p>
+                                <p>
+                                    ipsa eos nesciunt sapiente
+                                    necessitatibus doloribus magnam aspernatur voluptates? Veritatis quos cumque, enim
+                                    repellat minima blanditiis placeat tempora explicabo.
+                                </p>
+                                <div class="d-flex justify-content-between post_buttons">
+                                    <button class="btn btn-lg btn-outline-primary btn_sub btn_like" onclick="like('0')">
+                                        <i class="fas fa-thumbs-up"></i> Like
+                                    </button>
+                                    <button class="btn btn-lg btn-outline-dark btn_sub" onclick="reply('reply1')">
+                                        Replies <badge class="bg-white text-dark p-2">1</badge>
+                                    </button>
+                                </div>
+
+                                <div class="replies" id="reply1">
+                                    <div class="d-flex justify-content-start flex-row align-items-center 
+                                card reply_card py-3">
+                                        <div class="reply_img mx-2 align-items-center">
+                                            <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png"
+                                                alt="">
+                                        </div>
+                                        <div class="reply_text__left">
+                                            <p class="blog_title">
+                                                <span class="font-weight-bold">John </span><span> Aug 13, 2020</span>
+                                            </p>
+                                            <p>Thanks a lot for the info</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- Right Part Content -->
+                    <div class="col-lg-3  col-md-7 justify-content-end m-lg-0 m-auto">
+                        <div class="row gy-5">
+
+                            <!-- about me -->
+                            <div class="card text-center">
+                                <div class="card-header">
+                                    <h2>About Me</h2>
+                                </div>
+                                <img src="./images/pexels-andrea-piacquadio-3760263.jpg" alt="" class="about_me__img">
+                                <div class="card-body">
+                                    <h4>Name</h4>
+                                    <h4>Description</h4>
+                                    <h4>Address</h4>
+                                </div>
+                            </div>
+
+                            <div class="alert alert-danger" role="alert">
+                                <h2>Hire me anytime!</h2>
+                            </div>
+
+
+
+                            <button type="button" class="btn btn-success">
+                                Profile <span class="badge badge-light">10</span>
+                                <span class="sr-only">unread messages</span>
+                            </button>
+
+
+
+
+                            <table class="table table-dark text-center">
+                                <thead>
+                                    <tr>
+                                        <th scope=" col">
+                                            <h2>People reading posts</h2>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <h3>Sindhu</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h3>Jacob</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h3>Larry</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h3>Ravindra</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h3>Angela</h3>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+
+                            <div class="empty"></div>
+
+
+                            <div class="card my-5 p-5 subscribe">
+
+                                <h2>Subscribe to my newsletter to get crazy news</h2>
+                                <form>
+                                    <div class="form-group my-3">
+                                        <label for="exampleInputPassword1">Name</label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="form-group my-5">
+                                        <label for="exampleInputEmail1">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <small id="emailHelp" class="form-text text-muted">We'll never share your email
+                                            with anyone else.</small>
+                                    </div>
+                                    <div class="form-group my-3">
+                                        <label for="exampleInputPassword1">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="form-group form-check my-5 d-flex align-items-center p-3">
+                                        <input type="checkbox" class="form-check-input mr-3" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+
+
+                            <div class="empty"></div>
+
+
+                            <div class="card my-5">
+                                <div class="card-header text-center advertise">
+                                    <h2>Advertisements</h2>
+                                </div>
+                                <div class="card-body advertise-body">
+
+                                </div>
+                            </div>
+
+
+                            <div class="empty"></div>
+
+                            <div class="card my-5">
+                                <div class="card-header text-center advertise">
+                                    <h2>Advertisements</h2>
+                                </div>
+                                <div class="card-body advertise-body">
+
+                                </div>
+                            </div>
+
+
+                            <div class="empty"></div>
+
+
+                            <div class="card my-5">
+                                <div class="card-header text-center advertise">
+                                    <h2>Advertisements</h2>
+                                </div>
+                                <div class="card-body advertise-body">
+
+                                </div>
+                            </div>
+
+                            <div class="empty"></div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card text-center mt-5">
+        <div class="card-body p-5">
+            <h3 class="card-title">Best Blogs you will ever find</h3>
+            <p class="card-text">made with love</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Separate Popper.js and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+        integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+        crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+
+        const reply = (res) => {
+            var res = document.getElementById(res)
+            // console.log(res)
+            if (res.className == 'replies') {
+                res.className = 'show'
+            } else {
+                res.className = 'replies'
+            }
+        }
+
+
+
+
+        const like = (i) => {
+            const likebtn = document.getElementsByClassName('btn_like')[parseInt(i)];
+            // console.log(likebtn);
+            if (likebtn.className == "btn btn-lg btn-outline-primary btn_sub btn_like") {
+                likebtn.className = 'btn btn-lg btn-primary btn_sub btn_like'
+                likebtn.innerHTML = '✔ Liked'
+            } else {
+                likebtn.className = 'btn btn-lg btn-outline-primary btn_sub btn_like'
+                likebtn.innerHTML = '<i class="fas fa-thumbs-up"></i> Like'
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
