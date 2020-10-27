@@ -7,10 +7,6 @@
     --eff: .5s all ease;
 }
 
-/* *{
-    font-family: ;
-} */
-
 html{
     font-size: 62.5%;
 }
@@ -65,7 +61,6 @@ body{
 .main_header__div h2{
     font-size: 6.5rem;
     color: var(--main-color);
-    position: relative;
     padding-bottom: 2rem;
 }
 
