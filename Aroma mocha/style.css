@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Piedra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.fixed-action-btn a i {
+  border-radius: 30%;
+}
+
+/* Navigation Bar */
+
+.navigation {
+  padding: 0 11rem;
+}
+
+.navigation li a {
+  padding: 0 2rem;
+}
+
+.special {
+  font-family: "Piedra", cursive;
+  color: #bcaaa4;
+}
+
+.coffee {
+  position: relative;
+  top: 3px;
+}
+
+/* Home */
+
+.home-heading {
+  padding: 10rem 12rem;
+}
+
+.parallax-container {
+  height: 45rem;
+}
+
+/* Carousel */
+.Carousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 0 7rem;
+}
+
+.Carousel h1 {
+  font-family: "Pacifico", cursive;
+  color: rgba(0, 0, 0, 0.8);
+  padding: 21px 35px;
+  box-shadow: 6px 9px 9px rgb(0, 0, 0);
+  border-radius: 30px;
+}
+
+.carousel {
+  overflow: visible;
+}
+
+.carousel img {
+  height: 300px;
+  border: 1px solid rgb(102, 101, 101);
+  box-shadow: 5px 5px 25px rgb(0, 0, 0);
+}
+
+/* intro */
+
+.intro {
+  display: flex;
+  align-items: center;
+  padding: 5rem;
+  justify-content: space-evenly;
+}
+
+.text {
+  max-width: 35rem;
+}
+
+.text h5 {
+  padding: 1.5rem 0;
+}
+
+.intro-img img {
+  border-radius: 7%;
+  box-shadow: 8px 12px 35px #3e2723;
+}
+
+.progress {
+  height: 1rem;
+}
+
+/* Products */
+.products {
+  padding: 4rem 5rem;
+}
+
+.card {
+  box-shadow: 4px 4px 10px black;
+}
+
+.card:hover {
+  transition: all 600ms ease-in-out;
+  transform: scale(1.05);
+  box-shadow: 7px 7px 15px #3e2723;
+}
+
+/* Collapsible */
+#collapsible {
+  padding: 8rem 16rem;
+  background-color: #bcaaa4;
+}
+
+#collapsible h3 {
+  padding-bottom: 1.3rem;
+}
+
+.collapsible li {
+  border-bottom: 3px solid #3e2723;
+  box-shadow: 10px 10px 15px #3e2723;
+}
+
+.collapsible-header i {
+  position: relative;
+  top: 3px;
+  right: 4px;
+}
+
+.collapsible li span {
+  font-family: "Piedra", cursive;
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
+/* Footer */
+
+#Footer {
+  padding: 4rem;
+}
